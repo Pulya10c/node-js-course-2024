@@ -1,0 +1,21 @@
+{
+  "name": "node-js-course-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "task1": "node testEE.js",
+    "task2": "node WithTime.js",
+    "task3": "node task3.js"
+  },
+  "author": "aleh serhiyenia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "node-fetch": "^3.3.2"
+  }
+}
