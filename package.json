@@ -1,0 +1,25 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "jest ./src/services/public-holidays.service.e2e.test.ts"
+  },
+  "author": "aleh serhiyenia",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.28",
+    "@types/supertest": "^6.0.2",
+    "axios": "^1.6.8",
+    "jest": "^29.7.0",
+    "node-fetch": "^3.3.2",
+    "supertest": "^6.3.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}

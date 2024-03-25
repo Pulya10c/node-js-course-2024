@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "jest": {
+    "transform": {
+      "\\.ts$": "ts-jest"
+    },
+    "testEnvironment": "node",
+    "moduleFileExtensions": ["ts", "js"],
+    "coveragePathIgnorePatterns": ["/node_modules/"],
+    "coverageReporters": ["json", "lcov", "text", "text-summary"]
+  }
+}
